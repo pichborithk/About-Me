@@ -21,7 +21,7 @@ h3 {
   font-weight: bold;
 }
 p {
-  color: #f7f9fa;
+  color: #137786;
   font-size: 1.2rem;
   font-family: 'Palanquin', sans-serif;
   font-weight: bold;
@@ -73,7 +73,7 @@ a:active {
   padding: 0% 15%;
 }
 .quote {
-  padding: 25% 0 0 0;
+  padding-top: 25%;
 }
 
 .antenna-img {
@@ -83,7 +83,6 @@ a:active {
 /* About Me Section */
 .about-me {
   background-color: #f7f9fa;
-  /* height: 500px; */
   padding: 3% 15%;
   text-align: center;
 }
@@ -109,7 +108,7 @@ a:active {
 .describe-skill {
   padding: 5% 0 0 0;
 }
-
+.describe-skill p,
 .describe-skill h3 {
   color: #f7f9fa;
 }
@@ -155,6 +154,10 @@ a:active {
   height: 150px;
   width: 150px;
 }
+.member p {
+  color: #f7f9fa;
+}
+
 /* footer */
 
 #footer {
@@ -167,17 +170,27 @@ a:active {
 }
 
 .footer p {
-  color: #137786;
   font-size: 1rem;
 }
 
-@media (max-width: 990px) {
-  #title {
+@media (max-width: 991px) {
+  .quote {
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .antenna-img {
     text-align: center;
   }
-  .title-img {
-    position: static;
-    transform: rotate(0deg);
-    width: 50%;
+}
+
+@media (max-width: 669px) {
+  #education {
+    height: 520px;
+  }
+}
+@media (max-width: 645px) {
+  #education {
+    height: 600px;
   }
 }
