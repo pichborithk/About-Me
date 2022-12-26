@@ -1,54 +1,46 @@
 body {
   font-family: 'Montserrat';
 }
-#title {
-  background-color: #f7f9fa;
-  color: #047685;
-}
-.container-fluid {
-  padding: 3% 15% 7%;
-}
+
 h1 {
-  font-family: 'Montserrat';
+  color: #f7f9fa;
+  font-family: 'Prosto One', cursive;
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
 h2 {
-  font-family: 'Montserrat';
+  font-family: 'Prosto One', cursive;
   font-size: 3rem;
   font-weight: bold;
   line-height: 1.5;
 }
 h3 {
-  font-family: 'Montserrat';
-  font-size: 1.5rem;
+  font-family: 'Radley', serif;
+  font-size: 2rem;
   font-weight: bold;
 }
 p {
-  color: #5fdbcd;
+  color: #137786;
+  font-size: 1.2rem;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: bold;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
 /* Navigation Bar */
+.container-fluid {
+  padding: 2% 12% 0;
+}
+#navigation {
+  background-color: #f7f9fa;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 .logo {
   height: 80px;
   width: 80px;
   border-radius: 10px;
-}
-.navbar {
-  padding-bottom: 4.5rem;
-}
-.navbar-brand {
-  font-family: 'Ubuntu';
-  font-size: 2.5rem;
-  font-weight: bold;
 }
 
 .nav-item {
@@ -56,42 +48,60 @@ a:active {
 }
 
 .nav-link {
+  color: #000;
   font-family: 'Montserrat';
   font-size: 1.2rem;
   font-weight: 100;
 }
 
-/* Download Button */
+/* Introduction Section */
 
-.download-btn {
-  margin: 5% 3% 5% 0;
+#introduction {
+  background-color: #137786;
+  padding: 0% 15%;
+}
+.quote {
+  padding: 25% 0 0 0;
 }
 
-/* Title Image */
-
-.title-img {
-  /* position: absolute; */
-  top: 10%;
+.antenna-img {
+  text-align: right;
 }
 
 /* About Me Section */
-
 .about-me {
-  padding: 5% 15%;
-  background-color: #fff;
+  background-color: #f7f9fa;
+  /* height: 500px; */
+  padding: 3% 15%;
   text-align: center;
 }
-/* Features Section */
+.my-photo {
+  border-radius: 50%;
+  height: 25%;
+  margin: 0 0 5% 0;
+  width: 25%;
+}
+
+/* Skill Section */
+#skills {
+  background-color: #137786;
+  padding: 3% 15%;
+  text-align: center;
+}
 .skill {
   padding: 10% 15%;
 }
-.phoneskill-row {
+.phone-row {
   text-align: right;
 }
 .describe-skill {
-  padding: 40px 0 0 0;
+  padding: 5% 0 0 0;
 }
-.wifiskill-row {
+.describe-skill p,
+.describe-skill h3 {
+  color: #f7f9fa;
+}
+.wifi-row {
   text-align: left;
 }
 
@@ -106,37 +116,16 @@ a:active {
   margin-left: 30px;
 }
 
-#features {
-  background-color: #db855e;
-  padding: 3% 15%;
-  position: relative;
-  text-align: center;
-}
-.features-icon {
-  color: #ef8172;
-  margin: 5% 0;
-}
-
-.features-icon:hover {
-  color: #ff4c68;
-}
-
 /* Testimonials section  */
 
-#testimonials {
-  background-color: #fff;
-  color: #5fdbcd;
+#education {
+  color: #137786;
+  background-color: #f7f9fa;
+  height: 450px;
   text-align: center;
-  padding: 7% 0;
 }
 .carousel-item {
   padding: 7% 15%;
-}
-
-.testimonial-img {
-  border-radius: 100%;
-  margin: 20px;
-  width: 10%;
 }
 
 /* footer */

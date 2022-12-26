@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Palanquin&family=Prosto+One&family=Radley:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <!-- CSS only -->
@@ -36,11 +36,11 @@
     <title>Pichborith Kong</title>
   </head>
   <body>
-    <header id="title" class="container-fluid">
+    <header id="navigation" class="container-fluid">
       <!-- <div class="container-fluid"> -->
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#title"
+        <a class="navbar-brand" href="index.html"
           ><img src="./asset/web_logo.png" alt="pichborith_kong" class="logo"
         /></a>
         <button
@@ -60,31 +60,37 @@
               <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">Skill</a>
+              <a class="nav-link" href="#skills">Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Education</a>
+              <a class="nav-link" href="#education">Education</a>
             </li>
           </ul>
         </div>
       </nav>
+    </header>
 
-      <!-- Title -->
+    <!-- Introduction Section -->
+
+    <section class="introduction" id="introduction">
       <div class="row">
         <div class="col-lg-6">
-          <h1>I'm Kong, a Telecom Engineer</h1>
+          <h1 class="quote">I'm Kong, a Telecom Engineer</h1>
         </div>
-        <div class="col-lg-6">
-          <img
-            class="title-img"
-            src="./asset/4G Antenna.gif"
-            alt="antenna-img"
-          />
+        <div class="col-lg-6 antenna-img">
+          <img src="./asset/4G Antenna.gif" alt="antenna-img" />
         </div>
       </div>
-      <!-- </div> -->
-    </header>
+    </section>
+
+    <!-- About Me Section -->
+
     <section class="about-me">
+      <img
+        src="./asset/DSC_3268 copy-modified.png"
+        alt="my photo"
+        class="my-photo"
+      />
       <p>
         Hi! My name is Pichborith Kong. I'm a Telecommunication Engineer. I
         worked for one of biggest Telecommunications Service Provider in
@@ -96,10 +102,10 @@
 
     <!-- Features -->
 
-    <section id="features">
-      <div class="skills row">
-        <h2>My Skills.</h2>
-        <div class="phoneskill-row col-12">
+    <section id="skills" class="skills">
+      <div class="row">
+        <h1>My Skills</h1>
+        <div class="phone-row col-12">
           <img class="phone-img" src="./asset/phone.gif" alt="phone-img" />
           <div class="describe-skill">
             <h3>Mobile Telecommunication</h3>
@@ -110,7 +116,7 @@
             </p>
           </div>
         </div>
-        <div class="wifiskill-row col-12">
+        <div class="wifi-row col-12">
           <img
             class="wifi-img"
             src="./asset/Wifi router.gif"
@@ -128,9 +134,9 @@
       </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- Education Section -->
 
-    <section id="testimonials">
+    <section id="education">
       <div
         id="testimonial-carousel"
         class="carousel slide"
@@ -185,6 +191,18 @@
         </button>
       </div>
     </section>
+
+    <section id="relative" class="relative">
+      <div><p>Saly Kong</p></div>
+      <div><p>Vanhan Sim</p></div>
+      <div><p>Tittya Thou</p></div>
+      <div><p>Samboroth Kong</p></div>
+      <div><p>Sreysros Saing</p></div>
+      <div><p>Maxwell Thou</p></div>
+      <div><p>Hendrix Thou</p></div>
+      <div><p>Axel Thou</p></div>
+    </section>
+
     <!-- Footer -->
 
     <footer id="footer">
