@@ -4,4 +4,4 @@
 
 ⚡️ HTML\
 ⚡️ CSS\
-⚡️ Bootstrap\
+⚡️ Bootstrap
