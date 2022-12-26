@@ -194,3 +194,31 @@ a:active {
     height: 600px;
   }
 }
+
+@keyframes fadeAndScale {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 1);
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 1);
+  }
+
+  70% {
+    opacity: 0;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+#introduction h1 {
+  animation: fadeAndScale 4s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -2.5s;
+  transform-origin: right bottom;
+}
