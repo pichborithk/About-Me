@@ -21,10 +21,18 @@ h3 {
   font-weight: bold;
 }
 p {
-  color: #137786;
+  color: #f7f9fa;
   font-size: 1.2rem;
   font-family: 'Palanquin', sans-serif;
   font-weight: bold;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #137786;
 }
 
 /* Navigation Bar */
@@ -48,10 +56,14 @@ p {
 }
 
 .nav-link {
-  color: #000;
-  font-family: 'Montserrat';
-  font-size: 1.2rem;
-  font-weight: 100;
+  color: #137786;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #24e2ff;
+  font-size: 1.6rem;
 }
 
 /* Introduction Section */
@@ -78,7 +90,7 @@ p {
 .my-photo {
   border-radius: 50%;
   height: 25%;
-  margin: 0 0 5% 0;
+  margin-bottom: 5%;
   width: 25%;
 }
 
@@ -97,7 +109,7 @@ p {
 .describe-skill {
   padding: 5% 0 0 0;
 }
-.describe-skill p,
+
 .describe-skill h3 {
   color: #f7f9fa;
 }
@@ -127,7 +139,22 @@ p {
 .carousel-item {
   padding: 7% 15%;
 }
+/* relative section */
+#relative {
+  padding: 5% 15% 4%;
+  background-color: #137786;
+}
 
+.member {
+  text-align: center;
+}
+.member img {
+  margin-bottom: 10%;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
 /* footer */
 
 #footer {
@@ -137,6 +164,11 @@ p {
 }
 .contact-icon {
   padding: 2% 2%;
+}
+
+.footer p {
+  color: #137786;
+  font-size: 1rem;
 }
 
 @media (max-width: 990px) {
