@@ -213,3 +213,31 @@ a:active {
     font-size: 2.2rem;
   }
 }
+
+@keyframes fadeAndScale {
+  0% {
+    -webkit-opacity: 0;
+    -webkit-transform: scale3d(0.5, 0.5, 1);
+  }
+
+  50% {
+    -webkit-opacity: 0;
+    -webkit-transform: scale3d(0.5, 0.5, 1);
+  }
+
+  70% {
+    -webkit-opacity: 0;
+    -webkit-transform: scale3d(0.75, 0.75, 1);
+  }
+
+  100% {
+    -webkit-opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+}
+
+#introduction h1 {
+  animation: fadeAndScale 4s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -2.5s;
+  transform-origin: right bottom;
+}
