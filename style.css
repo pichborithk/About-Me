@@ -214,12 +214,6 @@ a:active {
   }
 }
 
-@media (max-width: 421px) {
-  h2 {
-    font-size: 2rem;
-  }
-}
-
 @keyframes fadeAndScale {
   0% {
     -webkit-opacity: 0;
