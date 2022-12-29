@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat';
+  width: 100%;
 }
 
 h1 {
@@ -206,11 +207,20 @@ a:active {
   h2 {
     font-size: 2.4rem;
   }
+  .antenna-img img {
+    width: 100%;
+  }
 }
 
-@media (max-width: 421px) {
+@media (max-width: 430px) {
+  h1 {
+    font-size: 2.5rem;
+  }
   h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
   }
 }
 
